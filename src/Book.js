@@ -9,7 +9,7 @@ function Book(props) {
         <li className="book-data">Pages: {props.data.pages}</li>
         <li className="book-data">Read: {props.data.read}</li>
       </ul>
-      <br />
+     
       <button
         onClick={() => props.handleDeleteBook(props.id)}
         className="remove-btn"
